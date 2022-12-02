@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+    <link rel="stylesheet" href="Ecommerce.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="icons/style.css" />
+    <script defer src="index.js"></script>
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <section class="header">
+      <div class="mobile-menu">
+        <span class="icon-menu" id="menu-icon"> Menu</span>
+      </div>
+      <a href="#"><img src="imgs/Ecommerce-logo.png" alt="" /></a>
+      <div class="search" id="searcbar">
+        <input type="search" placeholder="Search For Products" />
+        <button class="icon-search"></button>
+      </div>
+      <div class="list">
+        <div class="alllist">
+          <div class="searchb" id="searchbtn">
+            <span class="icon-search"></span>
+          </div>
+          <ul class="nav" id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li href="#" class="cat-list" id="catg" style="font-weight: 600">
+              Category
+            </li>
+            <li href="#" id="catgmobile" style="font-weight: 600">Category</li>
+            <div class="categoeylistm" id="catlistm">
+              <li><a href="shop.html">Men</a></li>
+              <li><a href="shop2.html">Women</a></li>
+              <li><a href="shop3.html">Shoes & Accessories</a></li>
+            </div>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+            <span id="close" class="icon-close"></span>
+            <a id="cartw" class="thecart" href="#"></a>
+          </ul>
+          <div id="cartm" class="totalpricebox">
+            <p id="totalPrice">$0</p>
+            <a class="theCart" href="#"
+              ><span class="icon-shopping-cart" style="margin: 0"></span
+            ></a>
+            <p>Cart</p>
+          </div>
+        </div>
+        <!-- start categorey list  -->
+        <div class="categoeylist" id="catlist">
+          <a href="shop.html" class="ForMen">Men</a>
+          <a href="shop2.html" class="ForWomens">Women</a>
+          <a href="shop3.html" class="Shoesandacc">Shoes & Accessories</a>
+        </div>
+        <!-- end categorey list  -->
+
+        <!-- start for see more window -->
+        <div class="morebox" id="info-box">
+          <span id="Closee" class="icon-close"></span>
+          <div class="theboxgrid" id="areamsg">
+            <div class="thebox" id="thebox"></div>
+          </div>
+        </div>
+        <!-- end for see more window -->
+
+        <!-- start this a cart window  -->
+        <div class="back-screen" id="back">
+          <span id="closee" class="icon-close"></span>
+          <div class="h2">
+            <h2>Shoping Cart</h2>
+            <h2 class="icon-shopping-cart"></h2>
+          </div>
+          <div class="Empty" id="empty">
+            <img src="imgs/caaart.png" alt="" />
+            <p>You Don't Have Any Items In Your Cart</p>
+            <a href="shop.html">Search For Items</a>
+          </div>
+          <div class="cartcontainer areapro" id="addarea">
+            <!--  -->
+          </div>
+          <button class="btntotalcart" id="formbtn">
+            <p>Checkout</p>
+            <p id="totalprice">$0</p>
+          </button>
+        </div>
+        <!-- end this a cart window  -->
+
+        <!-- start check out page -->
+        <div class="checkbox" id="check-box">
+          <span id="Closeee" class="icon-close"></span>
+          <div class="thecheckboxgrid" id="areacheck">
+            <div class="contentbox" id="contentbox">
+              <h2 style="font-size: 30px">Checkout Information</h2>
+              <form action="">
+                <h5>Your Name :</h5>
+                <div class="Naame">
+                  <input type="text" placeholder="First Name" />
+                  <input type="text" placeholder="Last Name" />
+                </div>
+                <h5>Your Phone Number :</h5>
+                <div class="phone">
+                  <select name="" id="">
+                    <option value="">+2</option>
+                    <option value="">+24</option>
+                    <option value="">+244</option>
+                  </select>
+                  <input type="number" placeholder="Phone Number" />
+                  <h5>Your Phone Address :</h5>
+                </div>
+                <div class="address">
+                  <input type="text" placeholder="Country" />
+                  <br />
+                  <input
+                    style="width: 100%"
+                    type="text"
+                    placeholder="address" />
+                </div>
+                <h5>Payment Informations :</h5>
+
+                <div class="payment">
+                  <h4 style="margin-right: 10px">Pay by :</h4>
+                  <select name="" id="">
+                    <option value="">Visa Card</option>
+                    <option value="">Master Card</option>
+                    <option value="">Paypal</option>
+                    <input type="number" placeholder="Account number" />
+                  </select>
+                </div>
+                <button class="confirm">Confirm</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!--  check out page -->
+      </div>
+    </section>
+    <section class="bannar-contact">
+      <div class="head-banner">
+        <h1>Contact Us</h1>
+        <p>Contact Support Now</p>
+      </div>
+    </section>
+    <section class="contact-us">
+      <p>
+        If you have questions about anything Home Shop - from where is your
+        order,<br />
+        to exchanging your fresh threads, head on over to our
+        <a href="#">Help Centre</a>.
+      </p>
+      <p>
+        This is where you'll find all the answers you need, you’ll even be able
+        to speak to one of our friendly support heroes!
+      </p>
+      <a class="cont" href="#">Contact Support Now</a>
+    </section>
+    <section class="sign-up">
+      <div class="Text">
+        <h4>Sign Up With Your Email For New Updats</h4>
+        <p>
+          Get E-Mail Update About Latest Shop And <span>Special Offers</span>
+        </p>
+      </div>
+      <div class="Email">
+        <input type="email" placeholder="Type Youe Email Address" />
+        <button>Sign Up</button>
+      </div>
+    </section>
+    <footer>
+      <div class="footer">
+        <div class="follow">
+          <a href="#"><img src="imgs/Logo-footer.png" alt="" /></a>
+          <h4>follow us</h4>
+          <div class="icons">
+            <a href="#"><span class="icon-facebook-square"></span></a>
+            <a href="#"><span class="icon-twitter"></span></a>
+            <a href="#"><span class="icon-instagram"></span></a>
+            <a href="#"><span class="icon-pinterest"></span></a>
+          </div>
+        </div>
+        <div class="about">
+          <h4>About</h4>
+          <a href="#">About us</a>
+          <a href="#">Delivery Information</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Contact Us</a>
+        </div>
+        <div class="about">
+          <h4>My Account</h4>
+          <a href="#">Sign in</a>
+          <a href="#">View Cart</a>
+          <a href="#">Track My Order</a>
+          <a href="#">Help</a>
+        </div>
+        <div class="about">
+          <a>Secured Payment Getaways</a>
+          <div class="pay">
+            <a href="#"><img src="imgs/payment/visa.png" alt="" /></a>
+            <a href="#"><img src="imgs/payment/MasterCard.png" alt="" /></a>
+            <a href="#"><img src="imgs/payment/paypal.png" alt="" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="rights">
+        <a href="#">
+          © Home Shop "AhmedSafwat" . All Rights Reserved Privacy / Policy /
+          Copyright
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
